@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+.perfil {
+    background-color: white;
+    width: 350px;
+    padding: 30px;
+    text-align: center;
+
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.perfil h1 {
+    color: #333;
+    
+}
+
+#nome {
+    color: #666;
+    margin: 8px 0;
+}
+
+
